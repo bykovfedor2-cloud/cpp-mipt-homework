@@ -21,7 +21,7 @@ int main(void) {
     }
 
     printf("MAX = %d\n", maximum);
-    printf("MAX_COUNT = %d\n", max_freq);
+    printf("%i %i\n", maximum, max_freq);
 
     return 0;
 }
