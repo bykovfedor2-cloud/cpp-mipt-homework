@@ -9,13 +9,13 @@ int get_next_collatz(int val) {
 
 int main(void) {
     int current = 0;
-    int steps = 0;
-    int peak = 0;
+    scanf("%i", &current); 
 
-    scanf("%d", &current);
+    int steps = 1;         
+    int peak = current;     
 
     while (current != 1) {
-        printf("%d ", current);
+        printf("%i ", current);
 
         if (current > peak) {
             peak = current;
@@ -24,10 +24,7 @@ int main(void) {
         current = get_next_collatz(current);
         steps++;
     }
-
-    printf("\n");
-    printf("Length = %d ", steps);
-    printf("Max = %d\n", peak);
-
+    printf("1\n");
+    printf("Length = %i, Max = %i\n", steps, peak);
     return 0;
 }
