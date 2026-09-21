@@ -17,9 +17,9 @@ int compute_matrix_sum(int rows, int cols) {
 int main(void) {
     int n = 0, m = 0;
 
-    while (scanf("%d %d", &n, &m) == 2) {
+    while (scanf("%i %i", &n, &m) == 2) {
         int result = compute_matrix_sum(n, m);
-        printf("sum = %d\n", result);
+        printf("%i\n", result);
     }
 
     return 0;
