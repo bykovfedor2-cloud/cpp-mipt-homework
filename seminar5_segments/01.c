@@ -24,7 +24,7 @@ int main(void)
     free(p_size);
 
     // b
-    char* p_str = (char*)malloc(9 * sizeof(char)); // 8 букв + '\0'
+    char* p_str = (char*)malloc(9 * sizeof(char));
     strcpy(p_str, "Elephant");
     printf("%s\n\n", p_str);
     free(p_str);
