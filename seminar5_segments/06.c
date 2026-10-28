@@ -38,9 +38,9 @@ int main()
 {
     int a[] = {32, 63, 29, 54, 81};
     sort(a, 5, less);
-    print(a, 5);              // 29 32 54 63 81
+    print(a, 5);             
     sort(a, 5, greater);
-    print(a, 5);              // 81 63 54 32 29
+    print(a, 5);              
     sort(a, 5, last_digit_less);
-    print(a, 5);              // 81 32 63 54 29
+    print(a, 5);              
 }
