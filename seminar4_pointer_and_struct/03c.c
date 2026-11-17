@@ -7,14 +7,14 @@ void cube(float* px)
 
 int main(void)
 {
-    float x = 2.0f;
-    printf("До:    %.2f\n", x);
+    float x = 2.0;
+    printf("До:    %.2\n", x);
     cube(&x);
-    printf("После: %.2f\n", x);
+    printf("После: %.2\n", x);
 
-    float y = 3.0f;
+    float y = 3.0;
     cube(&y);
-    printf("3^3 = %.2f\n", y);
+    printf("3^3 = %.2\n", y);
 
     return 0;
 }
