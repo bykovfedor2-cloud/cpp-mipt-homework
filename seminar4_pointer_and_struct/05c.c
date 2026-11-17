@@ -33,15 +33,15 @@ int main(void)
 {
     double x1, x2;
 
-    // x^2 - 5x + 6 = 0  →  корни 2 и 3
+    // x^2 - 5x + 6 = 0  
     int n = solve_quadratic(1, -5, 6, &x1, &x2);
     printf("n=%d, x1=%.4f, x2=%.4f\n", n, x1, x2);
 
-    // x^2 - 4x + 4 = 0  →  один корень 2
+    // x^2 - 4x + 4 = 0  
     n = solve_quadratic(1, -4, 4, &x1, &x2);
     printf("n=%d, x1=%.4f\n", n, x1);
 
-    // x^2 + x + 1 = 0  →  нет корней
+    // x^2 + x + 1 = 0  
     n = solve_quadratic(1, 1, 1, &x1, &x2);
     printf("n=%d\n", n);
 
